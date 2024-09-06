@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    margin-left: 1000px;
+    list-style: none;
+    justify-content:end;
+    gap: 20px;
+  color: rgb(23, 220, 20);
+  margin-top: 20px;
+font-size: 20px;
+font-weight: bolder;
+}
+img{
+    height: 60px;
+    width: 65px;
+    margin-left: 2px;
+}
+.main{
+    background-color: blueviolet;
+    display: flex;
+    height: 60px;
+    text-align: center;
+}
+ul li:hover{
+    color: brown;
+    cursor: pointer;
+}
+h1{
+    margin-top:13px ;
+}
+i{
+    color: aliceblue;
+    margin-top: 13px;
+}
+button{
+   color:  rgb(23, 220, 20);
+}
+.set{
+    margin-top: -9px;
+    color:  rgb(23, 220, 20);
+ 
+}
+.main1{
+    position: relative;
+    display: inline-block;
+}
+.tes{
+    background-color: #f9f9f9;
+   border: 1px solid #ccc;
+   padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+}.tes a{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+
+}
+.tes a:hover{
+    background-color: yellowgreen ;
+}
+.main1:hover .tes{
+    display: block;
+}
+
